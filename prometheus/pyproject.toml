@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "prometheus"
+version = "0.1.0"
+description = ""
+authors = ["simz1996 <simairamou8@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.2.2"
+pytorch-lightning = "^2.2.1"
+transformers = "^4.39.3"
+dvc = "^3.49.0"
+mlflow = "^2.11.3"
+kubernetes = "^29.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+docker = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
